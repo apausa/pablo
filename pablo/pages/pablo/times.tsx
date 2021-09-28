@@ -3,7 +3,7 @@ import React from 'react';
 export default function Times() {
   return (
     <main>
-      <h1>Times New Roman</h1>
+      <h2>Times New Roman</h2>
     </main>
   );
 }

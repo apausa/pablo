@@ -10,7 +10,6 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Head>
         <title>Pablo Apausa</title>
         <meta name="description" content="Designer, Frontend Developer" />
-
         <meta property="og:title" content="Pablo Apausa" />
         <meta property="og:description" content="Designer, Frontend Developer" />
         <meta property="og:image" content="" />

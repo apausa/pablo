@@ -1,12 +1,9 @@
 import React from 'react';
 import type { NextPage } from 'next';
+import styles from '../styles/Index.module.scss';
 
 const Home: NextPage = () => (
-  <main>
-    <h2>Twitter.</h2>
-    <h2>Mail.</h2>
-    <h2>GitHub.</h2>
-  </main>
+  <main className={styles.background} />
 );
 
 export default Home;

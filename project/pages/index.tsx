@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.scss';
 
 const Home: NextPage = () => (
   <main className={styles.pablo}>
-    <h1>Pablo</h1>
+    <h1>Pablo Apausa</h1>
   </main>
 );
 

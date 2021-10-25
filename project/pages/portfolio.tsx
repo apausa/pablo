@@ -14,7 +14,7 @@ export default function Portfolio() {
               <li>
                 <ul className={styles.project__header}>
                   <li className={styles.header__title}>{project.title}</li>
-                  <li className={styles.header__github}><a href={project.github}>Github</a></li>
+                  <li><a className={styles.header__github} href={project.github}>Github</a></li>
                 </ul>
               </li>
               <li className={styles.project__date}>{project.date}</li>

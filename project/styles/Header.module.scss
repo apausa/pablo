@@ -1,2 +1,15 @@
 @import './variables';
 
+.header {
+    background-color: $pantoneOrange021C;
+    padding: 0 16px;
+    height: 128px;
+    .header__title {
+        font-size: 64px;
+        font-weight: bold;
+    }
+    .header__description {
+        margin-top: 8px;
+        font-weight: bold;
+    }
+}

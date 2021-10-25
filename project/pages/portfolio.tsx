@@ -1,12 +1,13 @@
 import React from 'react';
-import styles from '../styles/Archive.module.scss';
+import styles from '../styles/Portfolio.module.scss';
 import portfolio from '../constants/portfolio';
 
-export default function Archive() {
+export default function Portfolio() {
   const { data }: any = portfolio;
   return (
-    <main className={styles.archive}>
-      <section className={styles.archive__section}>
+    <main className={styles.portfolio}>
+      <h2 className={styles.portfolio__title}>Portfolio:</h2>
+      <section className={styles.portfolio__section}>
         {data.map((project: any) => (
           <article className={styles.section__article}>
             <ul className={styles.article__project}>

@@ -5,9 +5,8 @@ import styles from '../styles/Header.module.scss';
 const Header: NextPage = () => (
   <header className={styles.header}>
     <hgroup>
-      <h1>Pablo Apausa.</h1>
-      <h2>Designer, Fullstack Developer.</h2>
-      <h2>Contact.</h2>
+      <h1 className={styles.header__title}>Pablo Apausa.</h1>
+      <h2 className={styles.header__description}>Designer, Fullstack Developer.</h2>
     </hgroup>
   </header>
 );

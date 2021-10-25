@@ -1,0 +1,55 @@
+@import './variables';
+
+.archive {
+    height: 100vh;
+    background-color: #000;
+}
+
+.archive__section {
+    width: 100%;
+    display: flex; 
+    flex-wrap: wrap;
+    .section__article {
+        width: 33.33%;
+        box-sizing: border-box; 
+        padding: 0 16px;
+    }
+}
+
+.section__article:nth-child(3n+2) {
+    border-right: 1px solid $pantoneCoolGray8C;
+    border-left: 1px solid $pantoneCoolGray8C;
+}
+
+
+.article__project {
+    border-bottom: 1px solid $pantoneCoolGray8C;
+    padding-top: 8px;
+    padding-bottom: 16px;
+    .project__description {
+        color: $pantoneCoolGray2C;
+        margin-bottom: 16px;
+    }
+    .project__thumbnail {
+        width: 100%;
+        height: 256px;
+        border: 1px solid $pantoneOrange021C;
+    }
+}
+
+.project__header {
+    display: flex;
+    margin-bottom: 8px;
+    .header__title {
+        font-weight: bold;
+        color: $pantoneCoolGray2C;
+    }
+    .header__github {
+        margin-left: 8px;
+        text-decoration: none;
+        font-weight: bold;
+        color: $pantoneCoolGray2C; 
+    }
+}
+
+

@@ -24,6 +24,7 @@ export default function Portfolio() {
                   className={styles.project__video}
                   title={project.title}
                   src={project.video}
+                  allowFullScreen
                 />
               </li>
             </ul>

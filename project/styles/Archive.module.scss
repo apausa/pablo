@@ -1,7 +1,6 @@
 @import './variables';
 
 .archive {
-    height: 100vh;
     background-color: #000;
 }
 
@@ -26,30 +25,33 @@
     border-bottom: 1px solid $pantoneCoolGray8C;
     padding-top: 8px;
     padding-bottom: 16px;
+    .project__header {
+        display: flex;
+        margin-bottom: 8px;
+        .header__title {
+            font-weight: bold;
+            color: $pantoneCoolGray2C;
+        }
+        .header__github {
+            margin-left: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            color: $pantoneCoolGray2C; 
+        }
+    }
+    .project__date {
+        color: $pantoneCoolGray2C;
+        margin-bottom: 8px; 
+    }
     .project__description {
         color: $pantoneCoolGray2C;
         margin-bottom: 16px;
     }
-    .project__thumbnail {
+    .project__video {
         width: 100%;
         height: 256px;
-        border: 1px solid $pantoneOrange021C;
     }
 }
 
-.project__header {
-    display: flex;
-    margin-bottom: 8px;
-    .header__title {
-        font-weight: bold;
-        color: $pantoneCoolGray2C;
-    }
-    .header__github {
-        margin-left: 8px;
-        text-decoration: none;
-        font-weight: bold;
-        color: $pantoneCoolGray2C; 
-    }
-}
 
 

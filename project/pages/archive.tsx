@@ -14,13 +14,17 @@ export default function Archive() {
                 <ul className={styles.project__header}>
                   <li className={styles.header__title}>{project.title}</li>
                   <li className={styles.header__github}><a href={project.github}>Github</a></li>
-                  <li className={styles.header__deploy}><a href={project.deploy}>Deploy</a></li>
                 </ul>
               </li>
+              <li className={styles.project__date}>{project.date}</li>
               <li className={styles.project__description}>{project.description}</li>
-              {(project.thumbnail !== undefined)
-                ? <li className={styles.project__thumbnail}>{project.thumbnail}</li>
-                : <li />}
+              <li>
+                <iframe
+                  className={styles.project__video}
+                  title={project.title}
+                  src={project.video}
+                />
+              </li>
             </ul>
           </article>
         ))}

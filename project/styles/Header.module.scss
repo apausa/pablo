@@ -1,21 +1,28 @@
 @import './variables';
 
 .header {
-    padding: 0 8px;
+    padding: 0 16px;
     position: absolute;
 }
 
 .header__top {
     padding-top: 8px;
-    .top__title {
-        font-weight: bold;
-        font-size: 32px;
-    }
     .top__description {
-        margin-top: 16px;
+        margin-top: 8px;
         font-weight: bold;
     }
     .top__contact {
         margin-top: 4px;
     }
+}
+
+.title__link {
+    font-weight: bold;
+    font-size: 32px;
+    color: #000;
+    text-decoration: none;
+}
+
+.title__link:hover {
+    text-decoration: underline;
 }

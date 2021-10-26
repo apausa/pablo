@@ -21,7 +21,7 @@ export default function Header() {
           </Link>
         </h1>
         <h2 className={styles.top__description}>Designer, Fullstack Developer.</h2>
-        <h2 className={styles.top__contact}>Contact: pablo@apausa.dev.</h2>
+        <h2 className={styles.top__contact}>Contact: &apos;pablo@apausa.dev&apos;.</h2>
       </hgroup>
     </header>
   );

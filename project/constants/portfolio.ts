@@ -3,7 +3,7 @@ export default {
     {
       title: 'Apausa',
       date: '10/2021',
-      description: 'Fullstack portfolio page. Built on Next with TypeScript and SCSS. Frontend Development features Static Generation and React.',
+      description: 'Frontend portfolio page. Built on Next with TypeScript and SCSS. Frontend Development features Static Generation and React.',
       github: 'https://github.com/apausa/pablo',
       video: 'https://i.ibb.co/z6vgWwt/Screenshot-2021-10-25-at-06-40-57.png',
     },

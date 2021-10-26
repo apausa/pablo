@@ -3,6 +3,7 @@ import React from 'react';
 import '../styles/globals.scss';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
+import Header from '../components/Header';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -16,6 +17,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta property="og:image" content="/favicon.ico" />
         <meta property="og:url" content="https://apausa.dev/" />
       </Head>
+      <Header />
       <Component {...pageProps} />
     </>
   );

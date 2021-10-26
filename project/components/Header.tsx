@@ -2,11 +2,14 @@
 import React from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import styles from '../styles/Header.module.scss';
+
+import home from '../styles/HomeHeader.module.scss';
+import other from '../styles/OtherHeader.module.scss';
 
 export default function Header() {
   const { route } = useRouter();
   const href = (route === '/') ? '/portfolio' : '/';
+  const styles = (route === '/') ? home : other;
   return (
     <header className={styles.header}>
       <hgroup className={styles.header__top}>

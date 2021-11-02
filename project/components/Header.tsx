@@ -2,6 +2,9 @@
 import React from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
+import {
+  BsLinkedin, BsGithub, BsTwitter,
+} from 'react-icons/bs';
 
 import home from '../styles/HomeHeader.module.scss';
 import other from '../styles/OtherHeader.module.scss';
@@ -21,6 +24,43 @@ export default function Header() {
           </Link>
         </h1>
         <h2 className={styles.top__description}>Designer, Fullstack Developer.</h2>
+        <ul>
+          <li>
+            Contact:
+            {' '}
+            <a href="mailto:pablo@apausa.dev">
+              &apos;pablo@apausa.dev&apos;
+            </a>
+            .
+          </li>
+          <li>
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://www.linkedin.com/in/apausa/"
+            >
+              <BsLinkedin />
+            </a>
+          </li>
+          <li>
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://github.com/apausa"
+            >
+              <BsGithub />
+            </a>
+          </li>
+          <li>
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://twitter.com/pabloapausa"
+            >
+              <BsTwitter />
+            </a>
+          </li>
+        </ul>
       </hgroup>
     </header>
   );

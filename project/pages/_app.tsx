@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Pablo Apausa</title>
+        <title>Pablo Apausa.</title>
         <meta name="description" content="Pablo Apausa" />
         <meta property="og:title" content="Pablo Apausa" />
         <meta property="og:description" content="Pablo Apausa" />

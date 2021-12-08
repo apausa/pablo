@@ -1,5 +1,5 @@
 export default {
-  name: 'Pablo Apausa',
+  title: 'Pablo Apausa',
   description: 'Designer, Frontend Developer',
   contact: 'pablo@apausa.io',
 };

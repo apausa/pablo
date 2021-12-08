@@ -7,14 +7,14 @@ import information from '../utils/information';
 import '../styles/globals.scss';
 
 function MyApp({ Component, pageProps }: AppProps) {
-  const { title, description } = information;
+  const { TITLE, DESCRIPTION } = information;
   return (
     <>
       <Head>
         <title>Pablo Apausa.</title>
-        <meta name="description" content={description} />
-        <meta property="og:title" content={title} />
-        <meta property="og:description" content={description} />
+        <meta name="description" content={DESCRIPTION} />
+        <meta property="og:title" content={TITLE} />
+        <meta property="og:description" content={DESCRIPTION} />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="/favicon.ico" />
         <meta property="og:url" content="https://apausa.io/" />

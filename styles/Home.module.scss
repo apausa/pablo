@@ -1,11 +1,5 @@
 @import './variables';
 
-.home {
-  width: 100vw;
-  height: 100vh;
-  background-color: #000;
-}
-
 .home__list {
   position: absolute;
   top: 50%;
@@ -32,4 +26,8 @@
     font-size: 1rem;
     color: $pantoneOrange021C;
   }
+}
+
+.element__contact:hover {
+  text-decoration: underline;     
 }

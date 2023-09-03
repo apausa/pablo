@@ -3,5 +3,8 @@
   "parserOptions": {
     "project": "./tsconfig.json"
   },
-  "ignorePatterns": ["postcss.config.js", "next.config.js"]
+  "ignorePatterns": ["postcss.config.js", "next.config.js"],
+  "rules": {
+    "import/prefer-default-export": "off"
+  }
 }

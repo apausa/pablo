@@ -15,6 +15,7 @@ export default function OwnButton({ buttonMetadata }: any) {
       color={color}
       variant={variant}
       className="my-2"
+      size="lg"
     >
       {content}
     </Button>

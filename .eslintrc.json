@@ -5,6 +5,7 @@
   },
   "ignorePatterns": ["postcss.config.js", "next.config.js"],
   "rules": {
-    "import/prefer-default-export": "off"
+    "import/prefer-default-export": "off",
+    "import/extensions": "off"
   }
 }
